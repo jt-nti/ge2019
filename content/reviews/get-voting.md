@@ -1,7 +1,7 @@
 ---
 title: "Get Voting"
 date: 2019-10-30T21:54:32Z
-draft: true
+draft: false
 link: "https://getvoting.org"
 org: Best for Britain
 goal: Stop Brexit
