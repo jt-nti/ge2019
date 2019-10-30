@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-gb"
+title = "Tactical Voting Tools"
+theme = "ananke"
+[params]
+  mainSections = [ "reviews" ]
