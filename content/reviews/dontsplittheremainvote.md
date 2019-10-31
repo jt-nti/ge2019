@@ -11,6 +11,6 @@ pd:
 goals:
   - Avoid remain vote split
 methods:
-  - None
+  - Aggregation
 ---
 
