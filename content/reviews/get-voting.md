@@ -1,5 +1,5 @@
 ---
-title: "Get Voting"
+title: "Get Voting!"
 date: 2019-10-30T21:54:32Z
 draft: false
 link: "https://getvoting.org"
@@ -8,6 +8,11 @@ goal: Stop Brexit
 summary: Cross-party campaign with a mission to stop Brexit by any democratic means
 twitter: BestForBritain
 pd: Optional email signup
+ge2017: unknown
+ep2019: unknown
+polling: yes
+other: MRP
+about: "https://getvoting.org/faq.html"
 ---
 
 Recommendations are based on a technique called MRP (multilevel-regression and post-stratification). Also use political analysis of candidates' past statements and policies.
