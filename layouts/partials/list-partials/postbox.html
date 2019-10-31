@@ -13,7 +13,9 @@
             <h2 class="card-title"><a class="text-dark" href="{{ .Params.link }}">{{ .Title }}</a></h2>
             <p class="card-text">{{ .Summary }}</p>
             <h4 class="card-text">This site aims to help you...</h4>
-            <p class="card-text">{{ range first 1 (.Param "goals") }}{{ . }}{{ end }}</p>
+            {{ with .Param "goals" }}
+            <p class="card-text">{{ range first 1 . }}{{ . }}{{ end }}</p>
+            {{ end }}
             <h4 class="card-text">Based on...</h4>
             <p class="card-text"><ul>{{ range .Param "methods" }}
                 {{ $name := . }}
