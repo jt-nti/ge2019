@@ -6,7 +6,6 @@ link: "https://www.remainvoter.com"
 about:
 org:
 goal: Vote Remain
-summary: TBC
 twitter: remainvoter
 pd:
 goals:
@@ -15,4 +14,6 @@ methods:
   - Unknown
 ---
 
-No site yet
+No site yet.
+
+<!--more-->

@@ -5,7 +5,6 @@ draft: false
 link: "https://www.tacticalvote.co.uk"
 about: "https://tacticalvote.co.uk/faq/"
 org: tacticalvote
-summary: 
 twitter:
 pd: Optional email signup
 goals:
@@ -18,3 +17,6 @@ methods:
   - Local knowledge
 ---
 
+Grassroots campaign that encourages the British electorate to vote tactically in the general election in order to kick the Tories out of government.
+
+<!--more-->

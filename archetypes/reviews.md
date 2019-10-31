@@ -5,7 +5,6 @@ draft: true
 link:
 about:
 org:
-summary:
 twitter:
 pd:
 goals:
@@ -14,3 +13,8 @@ methods:
   - Unknown
 ---
 
+Summary text.
+
+<!--more-->
+
+Additional site details.

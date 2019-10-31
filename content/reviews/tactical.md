@@ -5,7 +5,6 @@ draft: false
 link: "https://www.tactical.vote"
 about: "https://tactical.vote/faq#method"
 org: Vote Tools
-summary: A progressive grassroots campaign run by a small group of volunteers
 twitter: votetools
 pd: Optional email signup
 goals:
@@ -14,3 +13,6 @@ methods:
   - GE 2017
 ---
 
+A progressive grassroots campaign run by a small group of volunteers.
+
+<!--more-->

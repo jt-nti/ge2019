@@ -5,7 +5,6 @@ draft: false
 link: "https://dontsplittheremainvote.com/"
 about:
 org: David Batley
-summary: Shows recommendations from all the tactical voting sites in one place
 twitter:
 pd:
 goals:
@@ -14,3 +13,6 @@ methods:
   - Aggregation
 ---
 
+Shows recommendations from several tactical voting sites in one place.
+
+<!--more-->

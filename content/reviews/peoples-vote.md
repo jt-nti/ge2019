@@ -5,7 +5,6 @@ draft: false
 link: "https://www.tactical-vote.uk/"
 about: "https://www.tactical-vote.uk/about"
 org: People’s Vote
-summary: Vote tactically for a People’s Vote
 twitter: peoplesvote_uk
 pd:
 goals:
@@ -17,3 +16,6 @@ methods:
   - Candidates’ views
 ---
 
+Vote tactically for a People’s Vote.
+
+<!--more-->
