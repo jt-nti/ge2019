@@ -2,5 +2,8 @@ baseURL = "https://unruffled-jang-9455e2.netlify.com/"
 languageCode = "en-gb"
 title = "Tactical Voting Tools"
 theme = "ananke"
+[taxonomies]
+  goals = "goals"
+  methods = "methods"
 [params]
   mainSections = [ "reviews" ]
