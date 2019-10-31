@@ -1,9 +1,35 @@
 baseURL = "https://unruffled-jang-9455e2.netlify.com/"
 languageCode = "en-gb"
 title = "Tactical Voting Tools"
-theme = "ananke"
+theme = "mediumish-gohugo-theme"
+
 [taxonomies]
   goals = "goals"
   methods = "methods"
+
 [params]
-  mainSections = [ "reviews" ]
+  description ="All about voting tactically"
+
+[params.author]
+  name = "TBC"
+#  thumbnail = "/images/tbc.jpg"
+  description = "Who did this?"
+
+[params.index]
+#  picture = "/images/tbc.jpg"
+  title = "Tactical Voting Tools"
+  subtitle = "So many tactical voting sites, so little time!"
+  mdtext = '''Work in progress!\
+Comparison of [tactical voting sites](/reviews) coming soon'''
+  alertbar = true
+
+[params.social]
+  github = "TechForUK"
+  twitter = "TechForUK"
+  ## Main Menu
+
+[[menu.main]]
+    name = "Reviews"
+    weight = 100
+    identifier = "reviews"
+    url = "/reviews"
