@@ -4,6 +4,7 @@ date: 2019-10-30T21:54:32Z
 draft: false
 link: "https://getvoting.org"
 about: "https://getvoting.org/faq.html"
+jsonlink: "https://getvoting.org/NewData.json"
 org: Best for Britain
 twitter: BestForBritain
 pd: Optional email signup

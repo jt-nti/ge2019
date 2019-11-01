@@ -4,6 +4,8 @@ date: 2019-10-31T08:36:34Z
 draft: false
 link: "https://www.tactical.vote"
 about: "https://tactical.vote/faq#method"
+jsonlink: https://tactical.vote/json
+csvlink: "https://tactical.vote/csv"
 org: Vote Tools
 twitter: votetools
 pd: Optional email signup
