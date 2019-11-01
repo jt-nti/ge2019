@@ -29,10 +29,16 @@ Comparison of [tactical voting sites](/reviews) coming soon'''
 
 ## Main Menu
 [[menu.main]]
-    name = "Register to vote"
-    weight = 100
-    identifier = "register"
-    url = "https://www.gov.uk/register-to-vote"
+  name = "Register to vote"
+  weight = 100
+  identifier = "register"
+  url = "https://www.gov.uk/registertovote"
+
+[[menu.main]]
+  name = "Voting Counts"
+  weight = 200
+  identifier = "votingcounts"
+  url = "https://votingcounts.org.uk/"
 
 #[[menu.main]]
 #    name = "Reviews"
