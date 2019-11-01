@@ -1,5 +1,5 @@
 ---
-title: "Tactical Vote"
+title: "Tactical Vote (previously Tactical2017)"
 date: 2019-10-31T08:36:03Z
 draft: false
 link: "https://www.tacticalvote.co.uk"
@@ -17,6 +17,6 @@ methods:
   - Local knowledge
 ---
 
-Grassroots campaign that encourages the British electorate to vote tactically in the general election in order to kick the Tories out of government.
+A progressive grassroots campaign run by volunteers with the aim of stopping a Tory government.
 
 <!--more-->

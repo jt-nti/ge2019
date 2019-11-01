@@ -13,6 +13,6 @@ methods:
   - GE 2017
 ---
 
-A progressive grassroots campaign run by a small group of volunteers.
+Formed during the 2017 general election and focussed on preventing a Conservative government.
 
 <!--more-->
