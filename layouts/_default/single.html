@@ -52,6 +52,14 @@
                     <!-- Post Content -->
                     <div class="article-post">
                         {{ .Content}}
+
+                        {{ if .Params.jsonlink }}
+                        <p><a href={{.Params.jsonlink}}>Download recommendations json</a></p>
+                        {{end}}
+                        {{ if .Params.csvlink }}
+                        <p><a href={{.Params.csvlink}}>Download recommendations csv</a></p>
+                        {{end}}
+
                     </div>
                     
                     <!-- Post Categories -->
