@@ -65,9 +65,9 @@
                     <!-- Post Categories -->
                     <div class="after-post-tags">
                         <ul class="tags">
-                        {{ range .Params.tags }}
+                        {{ range .Params.methods }}
                         <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        <a href="{{ "/methods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
                         </li>
                         {{ end }}
                         </ul>
