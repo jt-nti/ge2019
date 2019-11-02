@@ -8,7 +8,8 @@ theme = "mediumish-gohugo-theme"
   methods = "methods"
 
 [params]
-  description ="All about voting tactically"
+  logo = "/images/logo.png"
+  description = "All about voting tactically"
 
 [params.author]
   name = "TBC"
