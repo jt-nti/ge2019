@@ -2,6 +2,7 @@ baseURL = "https://vigilant-franklin-221734.netlify.com/"
 languageCode = "en-gb"
 title = "Tactical Voting Tools"
 theme = "mediumish-gohugo-theme"
+copyright = "2019 Tech For UK. All rights reserved."
 
 [taxonomies]
   goals = "goals"
@@ -12,9 +13,9 @@ theme = "mediumish-gohugo-theme"
   description = "All about voting tactically"
 
 [params.author]
-  name = "TBC"
-#  thumbnail = "/images/tbc.jpg"
-  description = "Who did this?"
+  name = "Tech For UK"
+  thumbnail = "/images/tech-for-uk.png"
+  description = "Designed and built by members of the Tech For UK community."
 
 [params.index]
 #  picture = "/images/tbc.jpg"
