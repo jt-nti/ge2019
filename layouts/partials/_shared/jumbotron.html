@@ -10,21 +10,17 @@
 		<div class="col-md-8 p-5 align-self-center text-center">
 			<p>
 				{{ $explore := false }}
-				{{ range $name, $taxonomy := .Site.Taxonomies.goals }}
-				<a class="mt-1 mb-1" href="{{ "/goals/" | relLangURL }}{{ $name | urlize }}">
-					{{ with $.Site.GetPage (printf "/%s/%s" "goals" ($name | urlize)) }}
+				{{ $taxonomyname := .Data.Plural }}
+				{{ with ($.Site.GetPage (printf "/%s" $taxonomyname)) }}
+				{{ with .Data.Terms }}
+				{{ range $name, $taxonomy := . }}
+				<a class="mt-1 mb-1" href="{{ "/" | relLangURL }}{{ $taxonomyname | urlize }}{{ "/" }}{{ $name | urlize }}">
+					{{ with $.Site.GetPage (printf "/%s/%s" ($taxonomyname | urlize) ($name | urlize)) }}
 					{{ .Title }}
 					{{ end }}
 				</a>
 				{{ end }}
-			</p>
-			<p>{{ $explore := false }}
-				{{ range $name, $taxonomy := .Site.Taxonomies.methods }}
-				<a class="mt-1 mb-1" href="{{ "/methods/" | relLangURL }}{{ $name | urlize }}">
-					{{ with $.Site.GetPage (printf "/%s/%s" "methods" ($name | urlize)) }}
-					{{ .Title }}
-					{{ end }}
-				</a>
+				{{ end }}
 				{{ end }}
 			</p>
 		</div>
