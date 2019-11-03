@@ -3,3 +3,11 @@ p.cta {
     font-size: 1.8em;
     font-weight: 500;
 }
+
+.card-body ul.tags {
+    margin: 0 0 1rem 0;
+}
+
+.card-body ul.tags li {
+    line-height: 2.4;
+}
