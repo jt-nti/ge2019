@@ -1,0 +1,44 @@
+<section class="site-links">
+    <ul class="icons">
+        {{ with .Params.link }}
+        <li>
+        <a target="_blank" href="{{.}}"><i class="fas fa-external-link-alt social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.about }}
+        <li>
+        <a target="_blank" href="{{.}}"><i class="fas fa-info-circle social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.github }}
+        <li>
+        <a target="_blank" href="https://github.com/{{.}}"><i class="fab fa-github social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.linkedin }}
+        <li>
+        <a target="_blank" href="https://linkedin.com/in/{{.}}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.xing }}
+        <li>
+        <a target="_blank" href="https://www.xing.com/profile/{{.}}"><i class="fab fa-xing social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.medium }}
+        <li>
+        <a target="_blank" href="https://www.medium.com/@{{.}}"><i class="fab fa-medium social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.twitter }}
+        <li>
+        <a target="_blank" href="https://www.twitter.com/{{.}}"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+        {{ with .Params.instagram }}
+        <li>
+        <a target="_blank" href="https://www.instagram.com/{{.}}"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+        </li>
+        {{ end }}
+    </ul>
+</section>

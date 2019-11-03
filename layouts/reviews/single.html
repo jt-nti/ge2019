@@ -27,30 +27,14 @@
                     {{end}}
                     <!-- End Featured Image -->
 
+                    {{- partial "single-partials/site-links.html" . -}}
+
                     <!-- Post Content -->
                     <div class="article-post">
                         {{ .Content}}
-
-                        {{ if .Params.jsonlink }}
-                        <p><a href={{.Params.jsonlink}}>Download recommendations json</a></p>
-                        {{end}}
-                        {{ if .Params.csvlink }}
-                        <p><a href={{.Params.csvlink}}>Download recommendations csv</a></p>
-                        {{end}}
-
                     </div>
-                    
-                    <!-- Post Categories -->
-                    <div class="after-post-tags">
-                        <ul class="tags">
-                        {{ range .Params.methods }}
-                        <li>
-                        <a href="{{ "/methods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
-                    <!-- End Categories -->
+
+                    {{- partial "single-partials/site-details.html" . -}}
                     
                     <!-- Next and PrevPage inside current section -->
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">

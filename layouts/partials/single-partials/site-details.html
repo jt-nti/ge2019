@@ -1,0 +1,27 @@
+<section class="site-details">
+    <p>This site aims to help you...</p>
+    <ul class="tags">
+        {{ range .Params.goals }}
+        <li>
+        <a href="{{ "/goals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+        </li>
+        {{ end }}
+    </ul>
+    <p>The recommendations are based on...</p>
+    <ul class="tags">
+        {{ range .Params.methods }}
+        <li>
+        <a href="{{ "/methods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+        </li>
+        {{ end }}
+    </ul>
+    
+    <ul>
+        {{ with .Params.jsonlink }}
+        <li><a href={{.}}>Download recommendations json</a></li>
+        {{end}}
+        {{ with .Params.csvlink }}
+        <li><a href={{.}}>Download recommendations csv</a></li>
+        {{end}}
+    </ul>
+</section>

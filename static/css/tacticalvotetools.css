@@ -4,10 +4,29 @@ p.cta {
     font-weight: 500;
 }
 
-.card-body ul.tags {
+.card-body ul.tags, .site-details ul.tags {
     margin: 0 0 1rem 0;
 }
 
-.card-body ul.tags li {
+.card-body ul.tags li, .site-details ul.tags li {
     line-height: 2.4;
+}
+
+.site-links ul.icons li {
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.site-links ul.icons {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.site-links ul.icons li i.fa {
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }
