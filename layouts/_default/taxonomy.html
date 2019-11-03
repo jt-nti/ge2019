@@ -5,7 +5,7 @@
 {{ define "main" }}
     {{- partial "_shared/title.html" . -}}
 
-    {{ with .Summary }}
+    {{ with .Params.summary }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
 
