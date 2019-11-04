@@ -30,3 +30,11 @@ p.cta {
     text-align: center;
     border-radius: 50%;
 }
+
+.maxthumb {
+    background-color: black;
+}
+
+.maxthumb a:hover {
+    opacity: 0.8;
+}
