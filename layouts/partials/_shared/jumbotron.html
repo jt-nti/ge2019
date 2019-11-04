@@ -11,13 +11,23 @@
 			<p>
 				{{ $explore := false }}
 				{{ $taxonomyname := .Data.Plural }}
-				{{ with ($.Site.GetPage (printf "/%s" $taxonomyname)) }}
+				{{ $taxonomy := ($.Site.GetPage (printf "/%s" $taxonomyname)) }}
+				{{ with $taxonomy }}
 				{{ with .Data.Terms }}
-				{{ range $name, $taxonomy := . }}
+				{{ range $name, $terms := . }}
 				<a class="mt-1 mb-1" href="{{ "/" | relLangURL }}{{ $taxonomyname | urlize }}{{ "/" }}{{ $name | urlize }}">
 					{{ with $.Site.GetPage (printf "/%s/%s" ($taxonomyname | urlize) ($name | urlize)) }}
 					{{ .Title }}
 					{{ end }}
+				</a>
+				{{ end }}
+				{{ end }}
+				{{ end }}
+				{{ if not $taxonomy }}
+				{{ with .Site.GetPage "/reviews" }}
+				{{ range .Pages.ByTitle }}
+				<a class="mt-1 mb-1" href="{{ .Permalink }}">					
+					{{ .Title }}
 				</a>
 				{{ end }}
 				{{ end }}
