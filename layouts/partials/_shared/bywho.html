@@ -1,0 +1,7 @@
+{{if isset .Params "org"}}
+    {{if isset .Params "orglink"}}
+        <p class="card-text">By <a href="{{ .Params.orglink }}">{{ .Params.org }}</a></p>
+    {{ else }}
+        <p class="card-text">By {{ .Params.org }}</p>
+    {{ end }}
+{{ end }}

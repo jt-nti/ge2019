@@ -19,12 +19,9 @@
             {{ .Content }}
         </section>
 
-        <section class="recent-posts">            
-            <div class="section-title">                
-                <h2><span>All Sites</span></h2>                
-            </div>            
+        <section class="recent-posts">          
             <div class="row listrecent">
-                {{ with .Site.GetPage "/reviews" }}
+                {{ with .Site.GetPage "/tools" }}
                     {{ range .Pages.ByTitle }}
                         {{- partial "list-partials/postbox.html" . -}}
                     {{ end }}

@@ -1,16 +1,20 @@
 baseURL = "https://vigilant-franklin-221734.netlify.com/"
 languageCode = "en-gb"
-title = "Tactical Voting Tools"
+title = "Voter Tools"
 theme = "mediumish-gohugo-theme"
 copyright = "2019 Tech For UK. All rights reserved."
 
+[permalinks]
+  tactical = "/:section/:filename/"
+  tools = "/:filename/"
+
 [taxonomies]
-  goals = "goals"
-  methods = "methods"
+  tacticalgoal = "tacticalgoals"
+  tacticalmethod = "tacticalmethods"
 
 [params]
   logo = "/images/logo.png"
-  description = "All about voting tactically"
+  description = ""
 
 [params.author]
   name = "Tech For UK"
@@ -19,10 +23,8 @@ copyright = "2019 Tech For UK. All rights reserved."
 
 [params.index]
 #  picture = "/images/tbc.jpg"
-  title = "Tactical Voting Tools"
-  subtitle = "So many tactical voting sites, so little time!"
-  mdtext = '''Work in progress!\
-Comparison of [tactical voting sites](/reviews) coming soon'''
+  title = "Voter Tools"
+  subtitle = ""
   alertbar = true
 
 [params.social]
@@ -31,19 +33,7 @@ Comparison of [tactical voting sites](/reviews) coming soon'''
 
 ## Main Menu
 [[menu.main]]
-  name = "Register to vote"
+  name = "Tactical Voting Tools"
   weight = 100
-  identifier = "register"
-  url = "https://www.gov.uk/registertovote"
-
-[[menu.main]]
-  name = "Voting Counts"
-  weight = 200
-  identifier = "votingcounts"
-  url = "https://votingcounts.org.uk/"
-
-#[[menu.main]]
-#    name = "Reviews"
-#    weight = 200
-#    identifier = "reviews"
-#    url = "/reviews"
+  identifier = "tactical"
+  url = "/tactical"

@@ -1,8 +1,9 @@
 ---
 title: About
+url: "/about/"
 ---
 
-Tactical Voting Tools is a [Tech For UK](https://techforuk.com/) project. [Check out our other projects](https://brexit.tools/) and if you have an idea for a tool, [submit it here](https://bit.ly/ideastostopbrexit)!
+Voter Tools is a [Tech For UK](https://techforuk.com/) project. [Check out our other projects](https://brexit.tools/) and if you have an idea for a tool, [submit it here](https://bit.ly/ideastostopbrexit)!
 
 And don't forget to [register to vote](https://www.gov.uk/registertovote)!
 

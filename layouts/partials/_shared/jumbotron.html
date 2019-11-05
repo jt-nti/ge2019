@@ -24,7 +24,7 @@
 				{{ end }}
 				{{ end }}
 				{{ if not $taxonomy }}
-				{{ with .Site.GetPage "/reviews" }}
+				{{ with .Site.GetPage "/tactical" }}
 				{{ range .Pages.ByTitle }}
 				<a class="mt-1 mb-1" href="{{ .Permalink }}">					
 					{{ .Title }}

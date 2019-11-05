@@ -1,17 +1,17 @@
 <section class="site-details">
     <p>This site aims to help you...</p>
     <ul class="tags">
-        {{ range .Params.goals }}
+        {{ range .Params.tacticalgoals }}
         <li>
-        <a href="{{ "/goals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+        <a href="{{ "/tacticalgoals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
         </li>
         {{ end }}
     </ul>
     <p>The recommendations are based on...</p>
     <ul class="tags">
-        {{ range .Params.methods }}
+        {{ range .Params.tacticalmethods }}
         <li>
-        <a href="{{ "/methods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+        <a href="{{ "/tacticalmethods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
         </li>
         {{ end }}
     </ul>

@@ -5,29 +5,34 @@
             <a href="{{ .Params.link }}">
                 {{$images := .Resources.ByType "image"}}
                 {{with $images.GetMatch "*cover*" }}
-                    <img class="img-fluid" src="{{ .Permalink }}" alt="A thumbnail image">
+                    <img class="img-fluid" src="{{ .Permalink }}" alt="">
                 {{end}}                
             </a>
         </div>
         <div class="card-body">
             <h2 class="card-title"><a class="text-dark" href="{{ .Params.link }}">{{ .Title }}</a></h2>
+            {{- partial "_shared/bywho.html" . -}}
             <p class="card-text">{{ .Summary }}</p>
+            {{ with .Params.tacticalgoals }}
             <h4 class="card-text">This site aims to help you...</h4>
             <ul class="tags">
-                {{ range .Params.goals }}
+                {{ range . }}
                 <li>
-                <a href="{{ "/goals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                <a href="{{ "/tacticalgoals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
                 </li>
                 {{ end }}
             </ul>
+            {{ end }}
+            {{ with .Params.tacticalmethods }}
             <h4 class="card-text">The recommendations are based on...</h4>
             <ul class="tags">
-                {{ range .Params.methods }}
+                {{ range . }}
                 <li>
-                <a href="{{ "/methods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                <a href="{{ "/tacticalmethods/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
                 </li>
                 {{ end }}
-            </ul>       
+            </ul>
+            {{ end }}
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
@@ -39,7 +44,9 @@
                     <span class="author-meta">{{ .Site.Params.author }}</a></span><br/>
                 {{end}}
                 {{end}}
+                {{ if eq .Type "tactical" }}
                 <a href="{{ .Permalink }}" title="Read more">Read more <span class="d-md-inline">→</span></a>
+                {{ end }}
                 <div class="clearfix"></div>
             </div>
         </div>

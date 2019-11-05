@@ -1,15 +1,15 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
 draft: true
 link:
-about:
+aboutlink:
 org:
+orglink:
 twitter:
 pd:
-goals:
+tacticalgoals:
   - Unknown
-methods:
+tacticalmethods:
   - Unknown
 ---
 
