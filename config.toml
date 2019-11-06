@@ -1,8 +1,8 @@
-baseURL = "https://vigilant-franklin-221734.netlify.com/"
+baseURL = "https://ge2019.nti.me.uk/"
 languageCode = "en-gb"
-title = "Voter Tools"
+title = "General Election 2019"
 theme = "mediumish-gohugo-theme"
-copyright = "2019 Tech For UK. All rights reserved."
+copyright = "2019. All rights reserved."
 
 [permalinks]
   tactical = "/:section/:filename/"
@@ -18,23 +18,29 @@ copyright = "2019 Tech For UK. All rights reserved."
   tacticaldetails = false
 
 [params.author]
-  name = "Tech For UK"
-  thumbnail = "/images/tech-for-uk.png"
-  description = "Designed and built by members of the Tech For UK community."
+  name = "James Taylor"
+  thumbnail = "/images/tbc.png"
+  description = "TBC"
 
 [params.index]
 #  picture = "/images/tbc.jpg"
-  title = "Voter Tools"
+  title = "General Election 2019"
   subtitle = ""
   alertbar = true
 
 [params.social]
-  github = "TechForUK"
-  twitter = "TechForUK"
+  github = "jt-nti/ge2019"
+  twitter = "jtonline"
 
 ## Main Menu
 [[menu.main]]
   name = "Tactical Voting Tools"
   weight = 100
   identifier = "tactical"
-  url = "/tactical"
+  url = "/tactical/"
+
+[[menu.main]]
+  name = "About"
+  weight = 200
+  identifier = "about"
+  url = "/about/"

@@ -3,9 +3,7 @@ title: About
 url: "/about/"
 ---
 
-Voter Tools is a [Tech For UK](https://techforuk.com/) project. [Check out our other projects](https://brexit.tools/) and if you have an idea for a tool, [submit it here](https://bit.ly/ideastostopbrexit)!
-
-And don't forget to [register to vote](https://www.gov.uk/registertovote)!
+This site is a fork of the [Tech For UK](https://techforuk.com/) [tactical-vote-tools](https://github.com/TechForUK/tactical-vote-tools) project, which didn't end up getting published.
 
 ## Credits
 
