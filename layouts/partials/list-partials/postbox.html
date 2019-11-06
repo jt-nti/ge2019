@@ -44,8 +44,10 @@
                     <span class="author-meta">{{ .Site.Params.author }}</a></span><br/>
                 {{end}}
                 {{end}}
+                {{ if eq .Site.Params.tacticaldetails true }}
                 {{ if eq .Type "tactical" }}
                 <a href="{{ .Permalink }}" title="Read more">Read more <span class="d-md-inline">→</span></a>
+                {{ end }}
                 {{ end }}
                 <div class="clearfix"></div>
             </div>
