@@ -1,9 +1,11 @@
 ---
-title: Voter Tools
+title: REGISTER TO VOTE
 ---
 
-Before you do anything else, make sure you _register to vote_!
+The most important thing you can do between now and 26th November is
 
 {{< registertovote >}}
 
-And remember, if you've registered to vote, make sure you _use_ your vote!
+Then make sure everyone you know has registered, using some of the tools below to help you.
+
+If you're worried that your vote might not count, there are also some [Tactical Voting Tools](/tactical/) that you may want to check out. Just make sure you register to vote first!
