@@ -3,7 +3,11 @@
 {{ end }}
 
 {{ define "main" }}
+    {{ if eq .Data.Plural "goals" }}
+    {{- partial "_shared/sitetitle.html" . -}}
+    {{ else }}
     {{- partial "_shared/tacticaltitle.html" . -}}
+    {{ end }}
 
     {{ with .Params.summary }}
     <p>{{ . | markdownify }}</p>

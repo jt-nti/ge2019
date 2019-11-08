@@ -8,9 +8,7 @@
             {{ with .Site.Params.index.picture }}
                 <img src="{{ . | urlize | relURL }}" class="rounded-circle text-center index-image">
             {{ end }}
-            <div class="mainheading">
-                <h1 class="sitetitle">{{ .Site.Params.index.title }}</h1>
-            </div>
+            {{- partial "_shared/sitetitle.html" . -}}
         </header>
 
         <section class="text-center">

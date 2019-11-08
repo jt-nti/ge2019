@@ -9,6 +9,7 @@ copyright = "2019. All rights reserved."
   tools = "/:filename/"
 
 [taxonomies]
+  goal = "goals"
   tacticalgoal = "tacticalgoals"
   tacticalmethod = "tacticalmethods"
 
