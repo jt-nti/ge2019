@@ -1,9 +1,11 @@
-# tactical-vote-tools
+# ge2019
 
-Tactical voting site comparison site.
+2019 General Election website
 
-More soon.
+This is a [Hugo](https://gohugo.io/) site using the [mediumish-gohugo-theme](https://github.com/lgaida/mediumish-gohugo-theme) theme
 
-## tech
+Run local development server using
 
-[Hugo](https://gohugo.io/) site using the [mediumish-gohugo-theme](https://github.com/lgaida/mediumish-gohugo-theme) theme
+```
+hugo serve -D
+```
