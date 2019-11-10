@@ -6,11 +6,11 @@ aboutlink: "https://github.com/h2g2bob/dontsplittheremainvote"
 org: "David Batley"
 orglink: "https://dbatley.com/"
 tacticalgoals:
-  - Avoid remain vote split
+  - Compare tactical results
 tacticalmethods:
   - Aggregation
 ---
 
-Shows recommendations from several tactical voting sites in one place.
+Shows recommendations from several tactical voting sites in one place to avoid remain vote split.
 
 <!--more-->
