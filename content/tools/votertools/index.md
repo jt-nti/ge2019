@@ -5,7 +5,7 @@ link: "https://voter.tools/"
 org: Tech For UK
 orglink: "https://techforuk.com/"
 goals:
-  - Vote
+  - Find Election Tools
 ---
 
 Websites and projects to help get out the vote.

@@ -5,7 +5,7 @@ link: "https://wheredoivote.co.uk/"
 org: Democracy Club
 orglink: "https://democracyclub.org.uk/"
 goals:
-  - Vote
+  - Vote in Person
 ---
 
 Find your polling station.
