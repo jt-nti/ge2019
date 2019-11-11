@@ -2,8 +2,8 @@
 title: "Register To Vote"
 draft: false
 link: "https://www.gov.uk/registertovote"
-org: GOV.UK
-orglink: https://www.gov.uk/
+org: "GOV.UK"
+orglink: "https://www.gov.uk/"
 goals:
   - Register to Vote
 ---
