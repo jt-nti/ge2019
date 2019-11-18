@@ -10,6 +10,7 @@ copyright = "2019. All rights reserved."
 
 [taxonomies]
   goal = "goals"
+  insidergoal = "insidergoals"
   tacticalgoal = "tacticalgoals"
   tacticalmethod = "tacticalmethods"
 
@@ -41,7 +42,13 @@ copyright = "2019. All rights reserved."
   url = "/tactical/"
 
 [[menu.main]]
-  name = "About"
+  name = "More Tools"
   weight = 200
+  identifier = "insider"
+  url = "/insider/"
+
+[[menu.main]]
+  name = "About"
+  weight = 300
   identifier = "about"
   url = "/about/"

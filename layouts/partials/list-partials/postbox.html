@@ -13,13 +13,20 @@
             <h2 class="card-title"><a class="text-dark" href="{{ .Params.link }}">{{ .Title }}</a></h2>
             {{- partial "_shared/bywho.html" . -}}
             <p class="card-text">{{ .Summary }}</p>
-            {{ if or .Params.goals .Params.tacticalgoals }}
+            {{ if or .Params.goals .Params.insidergoals .Params.tacticalgoals }}
             <h4 class="card-text">This site aims to help you...</h4>
             <ul class="tags">
                 {{ with .Params.goals }}
                 {{ range . }}
                 <li>
                 <a href="{{ "/goals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                </li>
+                {{ end }}
+                {{ end }}
+                {{ with .Params.insidergoals }}
+                {{ range . }}
+                <li>
+                <a href="{{ "/insidergoals/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
                 </li>
                 {{ end }}
                 {{ end }}
