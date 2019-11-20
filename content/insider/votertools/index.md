@@ -2,9 +2,9 @@
 title: "Voter Tools"
 draft: false
 link: "https://voter.tools/"
-org: Tech For UK
+org: "Tech For UK"
 orglink: "https://techforuk.com/"
-goals:
+insidergoals:
   - Find Election Tools
 ---
 
