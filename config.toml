@@ -36,19 +36,25 @@ copyright = "2019. All rights reserved."
 
 ## Main Menu
 [[menu.main]]
-  name = "Tactical Voting Tools"
+  name = "Election Tools"
   weight = 100
+  identifier = "tools"
+  url = "/tools/"
+
+[[menu.main]]
+  name = "Tactical Voting Tools"
+  weight = 200
   identifier = "tactical"
   url = "/tactical/"
 
 [[menu.main]]
   name = "More Tools"
-  weight = 200
+  weight = 300
   identifier = "insider"
   url = "/insider/"
 
 [[menu.main]]
   name = "About"
-  weight = 300
+  weight = 400
   identifier = "about"
   url = "/about/"
